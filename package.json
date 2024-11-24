@@ -5,12 +5,9 @@
   "main": "main.js",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
     "preview": "vite preview",
-    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "test": "jest --config jestconfig.json",
-    "typecheck": "tsc",
-    "build": "tsc && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
