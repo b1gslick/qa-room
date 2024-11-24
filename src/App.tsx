@@ -1,7 +1,14 @@
 import "./App.css";
+import AppRoutes from "./routes/route";
+import { Navigation } from "./components/nav";
 
 function App() {
-  return <>Hello world</>;
+  return (
+    <div>
+      <Navigation />
+      <AppRoutes />
+    </div>
+  );
 }
 
 export default App;
