@@ -3,6 +3,13 @@ body {
   color: #1f2023;
 }
 
+.navigation {
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* display: grid; */
+  position: relative;
+  align-items: end;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1f2023;

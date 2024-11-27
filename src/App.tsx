@@ -1,12 +1,16 @@
 import "./App.css";
 import AppRoutes from "./routes/route";
-import { Navigation } from "./components/nav";
+import { Navigation } from "./layout/navigation";
+import { Footer } from "./layout/footer";
 
 function App() {
   return (
     <div>
       <Navigation />
-      <AppRoutes />
+      <div>
+        <AppRoutes />
+      </div>
+      <Footer />
     </div>
   );
 }

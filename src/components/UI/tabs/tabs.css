@@ -1,0 +1,13 @@
+a:link.tab,
+a:visited.tab {
+  text-decoration: none;
+  overflow: hidder;
+  border: 2px solid green;
+  border-radius: 30% 0% 0% 0%;
+  background-color: black;
+  padding: 10px 5px 5px 5px;
+  margin: 20px 5px 0px 0px;
+  display: inline-block;
+  text-align: end;
+  font-size: 30px;
+}

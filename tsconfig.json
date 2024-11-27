@@ -16,9 +16,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": false
   },
-  "include": ["src", "tests"],
+  "include": ["src", "./jest.config.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
